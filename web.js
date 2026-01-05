@@ -1,7 +1,7 @@
 document.getElementById("studentBtn").onclick = function () {
-  alert("Раздел для студентов скоро будет доступен");
+ window.location.href = "student";
 };
 
 document.getElementById("companyBtn").onclick = function () {
-  alert("Раздел для работодателей скоро будет доступен");
+  window.location.href = "company";
 };
