@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход для амбассадоров</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">KazYouthDiplomacy</div>
+    <nav class="nav">
+        <a href="web.html">Главная</a>
+    </nav>
+</header>
+
+<section class="login">
+    <h2>Вход для амбассадоров</h2>
+    <p>Введите номер телефона, привязанный к вашему профилю</p>
+
+    <form method="POST" action="/login" class="login-box">
+  <input
+    type="tel"
+    name="phone"
+    placeholder="+7XXXXXXXXXX"
+    required
+  />
+  <button type="submit">Войти</button>
+
+  <p class="login-note">
+    Вход доступен только для амбассадоров
+  </p>
+</form>
+
+</section>
+
+<script src="web.js"></script>
+</body>
+</html>
